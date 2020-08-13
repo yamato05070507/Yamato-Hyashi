@@ -23,11 +23,12 @@ int main(){
     }
   }
   if(heads>trails){
-  printf("you won\n");
+  printf("%s won\n",str);
   }
   else{
-    printf("you lose\n");
+    printf("%s lose\n",str);
   }
   printf("Heads: %d, Trails: %d\n", heads,trails);
+
   return 0;
 }
