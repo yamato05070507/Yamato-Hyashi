@@ -4,6 +4,11 @@
 int main(){
   int i, num, heads=0,trails=0;
 
+  char str[8];
+  printf("あんた誰？");
+  scanf("%s", str);
+  printf("ハロー、%s\n",str);
+
   printf("Tossing a coin...\n");
 
   for (i=0;i<3;i++){
