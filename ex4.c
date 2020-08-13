@@ -17,6 +17,12 @@ int main(){
       trails++;
     }
   }
+  if(heads>trails){
+  printf("you won\n");
+  }
+  else{
+    printf("you lose\n");
+  }
   printf("Heads: %d, Trails: %d\n", heads,trails);
   return 0;
 }
